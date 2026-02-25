@@ -1,0 +1,249 @@
+/* ===== RESET & BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 16px;
+  color: #1e293b;
+  background-color: #f8fafc;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+/* ===== CONTAINER ===== */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #2563eb;
+  padding: 16px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+header h1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ===== NAVIGATION ===== */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+nav ul li a:hover {
+  opacity: 0.7;
+}
+
+/* ===== MAIN ===== */
+main {
+  padding: 48px 0;
+  flex: 1;
+}
+
+main h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #2563eb;
+  text-align: center;
+}
+
+main p {
+  margin-bottom: 12px;
+}
+
+main ul {
+  margin-left: 24px;
+  margin-top: 8px;
+}
+
+main .container {
+  display: block;
+}
+
+.main-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #1e293b;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 48px;
+}
+
+
+/* ===== FORMULAIRE ===== */
+form {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #1e293b;
+  background-color: #f8fafc;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #2563eb;
+  background-color: #ffffff;
+}
+
+
+/* ===== BOUTON ===== */
+.btn {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 60px 0 48px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #64748b;
+  margin-bottom: 32px;
+}
+
+/* ===== CARDS ===== */
+.cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 28px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* ===== CONFIRMATION ===== */
+.confirmation-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 60px 40px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.confirmation-icon {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.4);
+}
+
+.confirmation-box h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #1e293b;
+}
+
+.confirmation-box p {
+  color: #64748b;
+  margin-bottom: 32px;
+  font-size: 16px;
+}

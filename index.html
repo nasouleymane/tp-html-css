@@ -1,58 +1,102 @@
 <!DOCTYPE html>
 <html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Mini Projet HTML/CSS</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Mini Projet HTML/CSS</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+  <header>
+    <div class="container">
+      <a href="index.html"><h1>Mon Site Web</h1></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="pages/formulaire.html">Formulaire</a></li>
+          <li><a href="pages/mois.php">Mois</a></li>
+          <li><a href="pages/table_multi.php">Table 8</a></li>
+          <li><a href="pages/multiplication_table.php">Multiplication</a></li>
+          <li><a href="pages/etat_eau.php">Eau</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <body>
-        
-        <header>
-            <div class="container">
-                <a href="index.html"><h1>Mon Site Web</h1></a>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="pages/formulaire.html">Formulaire</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+  <main>
+    <div class="container">
 
-        <main>
-            <div class="container">
-                <section class="hero">
-                    <h2>Bienvenue sur mon site</h2>
-                    <p>Ce projet a été réalisé dans le cadre d'un TP HTML/CSS. Découvrez les différentes pages disponibles.</p>
-                    <a href="pages/formulaire.html" class="btn">Accéder au formulaire →</a>
-                </section>
+      <section class="hero">
+        <p class="hero-tag">✦ Projet étudiant HTML / CSS / PHP</p>
+        <h2>Bienvenue sur mon site web</h2>
+        <p>Explorez les différentes pages réalisées dans le cadre d'un TP encadré.</p>
+        <a href="pages/formulaire.html" class="btn">Accéder au formulaire →</a>
+      </section>
 
-                <section class="cards">
-                    <div class="card">
-                        <h3>Page d'accueil</h3>
-                        <p>Présentation du projet et navigation principale.</p>
-                    </div>
-                    <div class="card">
-                        <h3>Formulaire</h3>
-                        <p>Un formulaire complet prêt pour l'intégration PHP.</p>
-                    </div>
-                    <div class="card">
-                        <h3>Confirmation</h3>
-                        <p>Page de résultat après soumission du formulaire.</p>
-                    </div>
-                </section>
-            </div>
-        </main>
+      <section class="pages-list">
+        <h3>Pages disponibles</h3>
+        <ul>
+          <li>
+            <a href="pages/formulaire.html">
+              <span class="page-icon">📋</span>
+              <div>
+                <strong>Formulaire</strong>
+                <p>Un formulaire complet prêt pour l'intégration PHP.</p>
+              </div>
+              <span class="page-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="pages/mois.php">
+              <span class="page-icon">📅</span>
+              <div>
+                <strong>Jours dans un mois</strong>
+                <p>Calcul du nombre de jours selon le mois et l'année.</p>
+              </div>
+              <span class="page-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="pages/table_multi.php">
+              <span class="page-icon">🔢</span>
+              <div>
+                <strong>Table de 8</strong>
+                <p>Affichage de la table de multiplication de 8.</p>
+              </div>
+              <span class="page-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="pages/multiplication_table.php">
+              <span class="page-icon">📊</span>
+              <div>
+                <strong>Toutes les tables</strong>
+                <p>Tables de multiplication de 0 à 10.</p>
+              </div>
+              <span class="page-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="pages/etat_eau.php">
+              <span class="page-icon">💧</span>
+              <div>
+                <strong>État de l'eau</strong>
+                <p>Détermine l'état de l'eau selon la température.</p>
+              </div>
+              <span class="page-arrow">→</span>
+            </a>
+          </li>
+        </ul>
+      </section>
 
-        <footer>
-            <div class="container">
-                <p> Nasrallah SOULEYMANE - 2026 - MINI PROJET HTML/CSS</p>
-            </div>
-        </footer>
+    </div>
+  </main>
 
-    
-    </body>
+  <footer>
+    <div class="container">
+      <p>Nasrallah SOULEYMANE - 2026 - MINI PROJET HTML/CSS</p>
+    </div>
+  </footer>
 
+</body>
 </html>
